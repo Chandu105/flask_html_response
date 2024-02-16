@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+<center>
+    <h1>send_html rendering html by flask using render_templates</h1>
+    <h2>{{name}}</h2>
+    <img src="{{url_for('static',filename='images/krishna.jpg')}}" 
+    alt="krishna" width="300px" height="300px">
+    <a href="{{url_for('properties')}}">go to properties</a>
+</center>
+</body>
+</html>
